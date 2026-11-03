@@ -1,0 +1,12 @@
+{
+  "name": "voice-clone-prep",
+  "version": "0.1.0",
+  "description": "Check a recording before you spend a voice-clone slot on it: parse WAV in pure JS and report duration, loudness, clipping, and silence ratio against one-sentence voice-cloning requirements (5-15s of clean speech).",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "voice-clone-prep": "bin/voice-clone-prep.js" },
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["voice-cloning", "wav", "audio-analysis", "tts", "recording", "voice-clone"],
+  "license": "MIT"
+}
